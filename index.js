@@ -61,7 +61,7 @@ function calendar() {
         const paddingDays = weekdays.indexOf(dateString.split(', ')[0]);
 
         document.getElementById('mnthyr').innerText =
-            `${dt.toLocaleDateString("in", { month: 'long' })} ${year}`;
+            `${dt.toLocaleDateString("en-US", { month: 'long' })} ${year}`;
 
         calendar.innerHTML = '';
 
