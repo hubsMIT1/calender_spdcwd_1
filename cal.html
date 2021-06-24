@@ -7,16 +7,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Titillium+Web:ital,wght@1,700&display=swap" rel="stylesheet">
     <title>Document</title>
-   
-   <link rel="stylesheet" href="cal.css">
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 
 <body>
     <div class="nav">
         <nav>
-            <h1> Daily Schedule </h1>
+            <h1 class="font-effect-fire"> Daily Schedule </h1>
         </nav>
     </div>
     <div class="box2">
@@ -34,31 +40,33 @@
                 <div id="head">
                     <div id="mnthyr"></div>
                     <div>
-                        <button id="bkbtn">&uparrow;</button>
+                        <button id="bkbtn" class="material-icons-outlined">
+                            
+                            more_vert</button>
                         <button id="nxtbtn">&downarrow;</button>
                     </div>
                 </div>
+                <div class="styl">
+                    <div id="weekdays">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tues</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                    </div>
 
-                <div id="weekdays">
-                    <div>Sun</div>
-                    <div>Mon</div>
-                    <div>Tues</div>
-                    <div>Wed</div>
-                    <div>Thu</div>
-                    <div>Fri</div>
-                    <div>Sat</div>
+                    <div id="calendar"></div>
                 </div>
-
-                <div id="calendar"></div>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <br>
             </div>
-            <br>
-            <br>
-            <hr>
-            <br>
-            <br>
+
         </div>
-
-
 
 
 
@@ -78,19 +86,22 @@
     <input type="datetime" id="time">
     <input type="time" name="" id=""> -->
             <ul id="UL1">
-                <li>
-                    an js close button
+                <!-- <li>
+                    i will try more best
+                    <!-- if refresh without click on delete btn all will save -->
 
-                </li>
+                <!-- </li>
                 <li>
-                    wow gjb
-                </li>
+                    js weak f9
+                    <!-- if click on dlt btn then refresh ten all will dlt and time also changing , i m weak in js -->
+                <!-- </li> -->
 
             </ul>
         </div>
 
     </div>
+
     </body>
-     <script src="cal.js"></script>
+     <script src="index.js"></script>
 
 </html>
