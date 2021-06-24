@@ -124,13 +124,13 @@ calendar();
 //     span.appendChild(txt);
 //     myNodelist[i].appendChild(span);
 // }
-// var close = document.getElementsByClassName("close");
-// for (var i = 0; i < close.length; i++) {
-//     close[i].onclick = function() {
-//         var del = this.parentElement;
-//         del.style.display = "none";
-//     }
-// }
+var close = document.getElementsByClassName("close");
+for (var i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+        var del = this.parentElement;
+        del.style.display = "none";
+    }
+}
 
 
 // st
