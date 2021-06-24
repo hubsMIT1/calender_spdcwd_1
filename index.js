@@ -115,22 +115,22 @@ calendar();
 
 
 // just cheching for 
-var myNodelist = document.getElementsByTagName("li");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-    var span = document.createElement("span");
-    var txt = document.createTextNode("Delete");
-    span.className = "close";
-    span.appendChild(txt);
-    myNodelist[i].appendChild(span);
-}
-var close = document.getElementsByClassName("close");
-for (var i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-        var del = this.parentElement;
-        del.style.display = "none";
-    }
-}
+// var myNodelist = document.getElementsByTagName("li");
+// var i;
+// for (i = 0; i < myNodelist.length; i++) {
+//     var span = document.createElement("span");
+//     var txt = document.createTextNode("Delete");
+//     span.className = "close";
+//     span.appendChild(txt);
+//     myNodelist[i].appendChild(span);
+// }
+// var close = document.getElementsByClassName("close");
+// for (var i = 0; i < close.length; i++) {
+//     close[i].onclick = function() {
+//         var del = this.parentElement;
+//         del.style.display = "none";
+//     }
+// }
 
 
 // st
